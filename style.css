@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Hanson';
+    src: url('fonts/Hanson-Bold.otf') format('opentype'), url('fonts/Hanson-Bold.ttf') format('truetype');
+}
+
+* 
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main 
+{
+    height: 100vh;
+    background: rgb(7,38,59);
+    background: radial-gradient(circle, rgba(7,38,59,1) 0%, rgba(2,16,25,1) 100%);
+}
+
+.container
+{
+   padding: 0 120px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-= NAVBAR -=-=-=-=-=-=-=-=-=-= */
+
+.navbar
+{
+    display: flex;
+    color: white;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.navbar .logo
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar .menu 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    font-weight: 300;
+}
+
+/* -=-=-=-=-=-=-=-=-=-= TEXT LANDING PAGE -=-=-=-=-=-=-=-=-=-= */
+
+.landing-text .title
+{
+    font-family: 'Hanson';
+}
+
+/* -=-=-=-=-=-=-=-=-=-= BOTTOM LANDING PAGE BUTTONS -=-=-=-=-=-=-=-=-=-= */
+
+.container.botton-btns 
+{
+    display: none !important;
+    height: 89vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.bottom-buttons 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.circle-btn
+{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-btn i
+{
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.social-media-container 
+{
+    display: flex;
+}
